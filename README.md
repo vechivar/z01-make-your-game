@@ -4,7 +4,7 @@ This project implements a homemade version of a brick-breaker game, written with
 
 ## How to use
 
-`go run .` to launch local server, then visit [http://localhost:8001]
+`go run .` to launch local server, then visit (http://localhost:8001/)
 
 Use W and C to move the bar (awkward controls due to very personal keyboard issues...). Use Space for everything else, including launching the ball, advancing animated sequences, pausing and unpausing the game.
 
