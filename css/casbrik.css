@@ -1,0 +1,135 @@
+#screen {
+    border: 1px solid;
+    position: absolute;
+    left: 100px;
+    top: 120px;
+}
+
+#bar {
+    position: absolute;
+    border: 2px solid;
+    width: 12%;
+    height: 2%;
+    top: 95%;
+    left: 2%;
+    display:none;
+    background-color: black;
+    will-change: transform;
+}
+
+#ball {
+    position: absolute;
+    border: 1px solid;
+    border-radius: 50%;
+    display:none;
+    will-change: transform;
+}
+
+.bar {
+    position: absolute;
+    border: 2px solid;
+    width: 12%;
+    height: 2%;
+    top: 95%;
+    left: 2%;
+    background-color: rgb(16, 7, 7);
+}
+
+.ball {
+    position: absolute;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#msgLog {
+    position: absolute;
+    left: 1800px;
+    top: 120px;
+    font-size: 50px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    position: absolute;
+    border: 1px solid;
+    z-index: 100;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 213, 213);
+    font-size: 60px;
+    top: 25%;
+    left:25%;
+    width:50%;
+    height:50%;
+}
+
+.brick {
+    display: flex;
+    position: absolute;
+    border: 1px solid black;
+    will-change: opacity;
+}
+
+.circleBrick {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid black;
+    will-change: opacity;
+}
+
+.bonus {
+    border: 1px solid;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    will-change:transform, opacity;
+}
+
+.bonusTimeBar {
+    border: 1px solid;
+    height: 20px;
+    background-color: red;
+}
+
+button {
+    /* display: flex; */
+    font-size: 80px;
+    width : 60%
+}
+
+.storyTxt {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+    width:100%;
+    height: 16.66666%;
+    top : 0px;
+    font-size: 50px;
+}
+
+.storyScreen {
+    position:absolute;
+    width:100%;
+    height: 80%;
+    top:20%;
+    overflow: hidden;
+}
+
+.storySpeech {
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 28px;
+    padding: 5px;
+}
