@@ -12,7 +12,7 @@ Use W and C to move the bar (awkward controls due to very personal keyboard issu
 
 - A (silly) story mode as required from the subject, with basic animated sequences and boss levels.
 - An endless mode that eventually becomes imposible to beat.
-- Calculating a score while playing through the game.
+- Calculating a score while playing through the game and lives management.
 - Evolving levels, with more bricks and increasing ball speed.
 - Different bricks (rectangles and circles) with increasing health points and different brick layout.
 - Changing background colors with levels.
@@ -22,7 +22,7 @@ Use W and C to move the bar (awkward controls due to very personal keyboard issu
 
 ## Project state
 
-The project has been validated by zone01 Rouen community, lots of critics and thoughts on how to imprive it can be made though.
+The project has been validated by zone01 Rouen community, lots of critics and thoughts on how to improve it can be made though.
 
 - The project's architecture is not good. As a first big Javascript project, it was not planned enough, and it got worse as more and more features got added to the game. If the game needed to be extended, it's the first thing that should be fixed. A better architecture could include :
     - A main.js file including all other needed javascript files.
